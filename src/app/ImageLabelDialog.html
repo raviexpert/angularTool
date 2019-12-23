@@ -1,0 +1,15 @@
+<h2 mat-dialog-title>Add Label </h2>
+
+<mat-dialog-content [formGroup]="form">
+  
+    <mat-form-field>
+        <input matInput
+                formControlName="description">
+    </mat-form-field>
+ 
+</mat-dialog-content>
+
+<div mat-dialog-actions>
+    <button mat-button [mat-dialog-close]="true" (click)="onNoClick()">Cancel</button>
+    <button class="mat-raised-button mat-primary" (click)="save()">Save</button>
+</div>

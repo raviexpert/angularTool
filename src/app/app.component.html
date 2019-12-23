@@ -1,0 +1,23 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<mat-toolbar color="primary">
+      <mat-toolbar-row>
+          <h1>
+              Image Annotation
+          </h1>
+      <span class="example-spacer"></span>
+      <input type="file" alife-file-to-base64 multiple (onFileChanged)="onFileChanges($event)" [(fileModel)]="files" [(rawFileModel)]="rawFiles" />
+      <a href="#" mat-button (click) = "onSavePascalVOC()"> <mat-icon class="example-icon">save</mat-icon></a>
+    </mat-toolbar-row>
+  </mat-toolbar>
+  <app-html></app-html>
+  <!--  <div  id="container">
+        <app-image-viewer [images]="base64Image"
+          [idContainer]="'idOnHTML'"
+          [loadOnInit]="true"
+          [showOptions] ="true"
+          (onNext) = "onNextImage($event)"
+          (onPrevious) = "onPreviousImage($event)"
+          ></app-image-viewer>
+          <app-drawing-board ></app-drawing-board>
+    </div> -->
+ 

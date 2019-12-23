@@ -1,0 +1,6 @@
+.trackingline{
+    outline: 1px solid yellow;
+    opacity: 0.5;
+    position: absolute;
+    display: block;
+}

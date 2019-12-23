@@ -1,0 +1,31 @@
+
+#container{
+   
+    background: black; 
+    position:relative; 
+    border:5px solid black; 
+    border-radius: 10px; 
+    box-shadow: 0 5px 50px #333;
+
+}
+
+#img{position:absolute; top:0; left:0;
+    width:100vw; z-index:20;}
+    
+#gameCanvas{
+    position:relative;
+    z-index:20;
+}
+
+.example-icon {
+    padding: 0 14px;
+  }
+  
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+
+  .mat-toolbar.mat-primary {
+    background: #007bff;
+    color: #fff;
+  }
